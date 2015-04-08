@@ -1,3 +1,7 @@
+<h1>Code Demo:</h1>
+<a href="http://derricklord.github.io/htmlTutorial/" target="_blank">Demo Site</a>
+
+
 <h2>HTML/CSS Tutorial Site</h2>
 <a href="http://learn.shayhowe.com/html-css/" target="_blank">Learn to code HTML/CSS</a>
 </br>
