@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+	<!-- Browser renders document contents from top to bottom --> 
 	<head>
 		<title>HTML tutorial</title>
 		<!-- Latest compiled and minified CSS -->
@@ -7,25 +8,42 @@
 
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="/css/app.css">
 
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>		
+	
 	</head>
 
 	<body>
+		<!-- Responsive Primary Content container  -->
 		<section class="container">
+			<!-- Content Header Row --> 
 			<header class="row">
 				<h1>HTML Tutorial</h1>
 			</header>
-			<article class="row">
 
-			</article>
-			<aside class="row">
+			<!-- Content Body Row -->
+			<div class="row">
+				<!-- Primary Content --> 
+				<article id="content" class="col-md-8 pull-right">
 
-			</aside>
-			<footer class="row">
+				</article>
 
+				<!-- Content Side Bar -->
+				<aside id="aside" class="col-md-3 pull-left">
+
+				</aside>
+			</div>
+
+			<!-- Content Footer Row -->
+			<footer id="footer" class="row">
+
+				<!-- Add all script element to footer -->
+				<!-- Latest compiled and minified JavaScript -->
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>	
+				<script src="/js/app.js"></script>
 			</footer>
+
 		</section>
+		<!-- End Primary container -->
 	</body>
 </html>
